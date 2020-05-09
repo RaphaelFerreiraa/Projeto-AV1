@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+     text-decoration: none;
+     color: black;
+ }
+
+body{
+     
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(bk.JPG);
+    background-size: 100%;
+ }
+
+ ul{
+     list-style: none;
+ }
+
+ img{
+     width: 100px;
+    
+ }
+
+ input[type="checkbox"]
+{
+    display:none;
+}
+nav{
+    background-color: #00020287;
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    left: -350px;
+    transition: all ,1s;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(350px);
+}
+
+ul{
+    top:100px;
+    position:absolute;
+    width: 100%;
+    
+}
+
+a{
+   
+   display: block;
+   padding: 20px 15px;
+   color: white;
+}
+
+a:hover{
+    background-color: teal;
+    color: black;
+}
+
+label{
+    
+    position: absolute;
+    z-index: 1;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+}
+  
+h2{    color: white;
+    font-family: sans-serif;
+    position: relative;
+    vertical-align: 100px;
+}
+
+
